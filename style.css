@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4CAF50;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #4CAF50;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS41400McUDwLHg_CxkvLRmBYTaD4qhZrBZgQ&s');
+.hero {
+    height: 100vh;
+    background-image: url('images/welcome-background.jpg'); /* Change this to your local image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+
+}
